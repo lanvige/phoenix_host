@@ -6,6 +6,7 @@ PATH
       jquery-rails
       phoenix_auth
       phoenix_core
+      phoenix_social
       rails (~> 3.1.3)
     phoenix_auth (0.0.1)
       devise
@@ -15,6 +16,9 @@ PATH
       haml
       jquery-rails
       rails (~> 3.1.3)
+    phoenix_social (0.0.1)
+      phoenix_auth
+      phoenix_core
 
 GEM
   remote: http://rubygems.org/
@@ -64,7 +68,7 @@ GEM
       orm_adapter (~> 0.0.3)
       warden (~> 1.1)
     erubis (2.7.0)
-    execjs (1.2.9)
+    execjs (1.2.12)
       multi_json (~> 1.0)
     haml (3.1.4)
     hike (1.2.1)
@@ -130,7 +134,7 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.4)
+    sqlite3 (1.3.5)
     stringex (1.3.0)
     thor (0.14.6)
     tilt (1.3.3)
