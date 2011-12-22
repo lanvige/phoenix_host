@@ -6,11 +6,12 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 #gem 'haml'
-gem 'devise'
+gem 'devise', "~> 2.0.0.rc"
 gem 'ruby-prof'
 
 gem 'simple_form'
-gem "phoenix",		:path => '~/repos/phoenix'
+gem "phoenix",		:path => '~/repos/phoenix/phoenix'
+
 
 # Databse
 gem "bson_ext", ">= 1.4.0"
@@ -32,3 +33,5 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'mail'
+
+gem "phoenix_default_theme",		:path => '~/repos/phoenix/phoenix_default_theme'
