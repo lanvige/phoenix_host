@@ -5,17 +5,16 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# gem 'sqlite3'
+# gem 'devise', '>= 2.0.0.rc'
+# gem 'haml'
+# gem 'simple_form'
 
-#gem 'haml'
-gem 'devise'
-
-gem 'simple_form'
 gem "phoenix",		:path => '~/repos/phoenix'
 
 # Databse
-gem "bson_ext", ">= 1.4.0"
 gem "mongoid", ">= 2.3.0"
+gem "bson_ext", ">= 1.4.0"
 gem "mongoid_slug", :require => 'mongoid/slug'
 
 group :assets do
