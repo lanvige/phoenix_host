@@ -6,7 +6,7 @@ gem 'rails', '~> 3.2.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # gem 'sqlite3'
-gem 'devise', '~> 2.0.0'
+# gem 'devise', '~> 2.0.0'
 
 gem "phoenix",		:path => '~/repos/phoenix/phoenix'
 # gem "phoenix_default_theme",    :path => '~/repos/phoenix_default_theme'

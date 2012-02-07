@@ -142,7 +142,6 @@ PLATFORMS
 DEPENDENCIES
   bson_ext (>= 1.4.0)
   coffee-rails
-  devise (~> 2.0.0)
   mongoid (>= 2.3.0)
   mongoid_slug
   phoenix!
