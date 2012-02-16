@@ -22,10 +22,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'requirejs-rails'
+
 # gem 'ruby-debug-base19', "0.11.24"
 # gem 'ruby-debug19', "0.11.6"
 
 # why don't work?
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
-
